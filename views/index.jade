@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    .page-header
+        h1 Estimated Ages
+    .container-fluid
+        - for (var i = 0; i < images.length; ) {
+            .row
+                - for (var j = i; i < images.length && i < j+3; i++)
+                    .col-md-4
+                        .thumbnail
+                            a(href='#'): img.img-responsive(src=images[i].path)
+                            .caption
+                                .alert-info
+                                    .row
+                                        .col-md.col-md-offset-5: strong= images[i].group
+        - }

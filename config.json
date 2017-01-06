@@ -1,0 +1,8 @@
+{
+    "img_proc_dir": "estimation",
+    "img_proc": "age_estimation",
+    "model": "age_model.txt.model",
+    "encoding": "utf8",
+    "feature_dir": "features",
+    "label_dir": "labels"
+}

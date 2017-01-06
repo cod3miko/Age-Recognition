@@ -1,0 +1,24 @@
+{
+  "name": "agestimator-server",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.0",
+    "jade": "*",
+    "async": "latest",
+    "mime": "latest"
+  },
+  "readmeFilename": "README.md",
+  "description": "Project Age Estimation API Server powered by Node.js",
+  "main": "app.js",
+  "devDependencies": {},
+
+  "keywords": [
+    "age"
+  ],
+  "author": "Ming-Ying Chung, Hao-Hsin Shih",
+  "license": "BSD"
+}
